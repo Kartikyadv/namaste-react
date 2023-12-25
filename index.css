@@ -33,6 +33,18 @@
     height: 40%;
 }
 .res_container{
+    margin: 0 100px;
     display: flex;
     flex-wrap: wrap;
+}
+.filter_btn{
+    margin: 10px 0 10px 120px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: none;
+}
+.filter_btn:hover{
+    background-color: black;
+    color: white;
 }
