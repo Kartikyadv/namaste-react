@@ -48,3 +48,42 @@
     background-color: black;
     color: white;
 }
+.shimmer_container{
+    margin: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer_card{
+    padding: 5px;
+    margin: 15px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;
+}
+.shimmer_card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.login_button{
+    padding: 10px;
+    margin-right: 10px;
+    font-size: large;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.login_button:hover{
+    background-color: black;
+    color: white;
+}
+.upper_body{
+    display: flex;
+}
+.search_container{
+    margin: 10px 30px;
+    padding: 5px 10px;
+}
+.search_bar{
+    padding: 5px 10px;
+    font-size: large;
+}

@@ -1,9 +1,9 @@
-code cleaning 
-export and import in react
+monolithic & microlithic
 
-useState
-reconcilation
-virtual dom and actual dom
-diff algo
+useEffect - called after rendering of website
+conditional rendering or shimmering effect
+search input and re-rendering theory + value setting in input
 
-implementing top rated button
+whenever a state variables update react re-renders the whole component
+
+https://nordicapis.com/10-free-to-use-cors-proxies/#:~:text=All%20you%20need%20to%20do,JavaScript%20code%20to%20implement%20it.
