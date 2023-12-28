@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { CDN_URL } from "../utils/constant";
 
 
@@ -8,11 +9,12 @@ const RestaurantCard = (props) => {
         costForTwo,
         sla,
         cloudinaryImageId,
-        avgRating
+        avgRating,
+        id
     } = props.resData?.info;
     return (
         <div className="res_card">
-            <img className="res_logo" src={CDN_URL+cloudinaryImageId} alt="logo"/>
+            <Link to={`restaurant-detail/${id}`}><img className="res_logo" src={CDN_URL+cloudinaryImageId} alt="logo"/></Link>
             <h3>{name}</h3>
             <h4>{cuisines.join(", ")}</h4>
             <h4>{costForTwo}</h4>

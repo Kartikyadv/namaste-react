@@ -1,6 +1,7 @@
 import RestaurantCard from "./RestaurantCard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   const [resList, setresList] = useState([]);
@@ -13,14 +14,14 @@ const Body = () => {
 
   const fetchData = async () => {
     const apiData = await fetch(
-      "https://proxy.cors.sh/https://www.swiggy.com/dapi/restaurants/list/v5?lat=27.1774553&lng=78.0077653&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=27.1774553&lng=78.0077653&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     );
     const jsonData = await apiData.json();
     setresList(
-      jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+      jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants
     );
-    setfilteredResList(jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+    setfilteredResList(jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants);
   };
 
@@ -31,10 +32,10 @@ const Body = () => {
           <button
             className="filter_btn"
             onClick={() => {
-              const filterResList = filteredResList.filter(
+              const filterResListTemp = filteredResList.filter(
                 (info) => info.info.avgRating > 4.2
               );
-              setfilteredResList(filterResList);
+              setfilteredResList(filterResListTemp);
             }}
           >
             Top Rated
@@ -45,6 +46,10 @@ const Body = () => {
             className="search_bar"
             onChange={(e) => {
               setSearchText(e.target.value);
+              const filterResListTemp = resList.filter(
+                (info) => info.info.name.toLowerCase().includes(searchText.toLowerCase())
+              );
+              setfilteredResList(filterResListTemp);
             }}
             value={searchText}
             placeholder="Search here.."
@@ -52,8 +57,8 @@ const Body = () => {
           <button
             className="search_bar"
             onClick={() => {
-              const filterResList = resList.filter((info) => info.info.name.toLowerCase().includes(searchText.toLowerCase()));
-              setfilteredResList(filterResList);
+              const filterResListTemp = resList.filter((info) => info.info.name.toLowerCase().includes(searchText.toLowerCase()));
+              setfilteredResList(filterResListTemp);
             }}
           >
             Search

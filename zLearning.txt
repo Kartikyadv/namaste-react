@@ -1,9 +1,32 @@
-monolithic & microlithic
+useEffect
+useState
 
-useEffect - called after rendering of website
-conditional rendering or shimmering effect
-search input and re-rendering theory + value setting in input
+react router dom
+1. import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-whenever a state variables update react re-renders the whole component
+2. const appRouter = createBrowserRouter([
+    {
+        path: "/",
+        element: <App/>
+    },
+    {
+        path: "/about",
+        element: <About/>
+    },
+    {
+        path: "/contact",
+        element: <Contact/>
+    },
+])
 
-https://nordicapis.com/10-free-to-use-cors-proxies/#:~:text=All%20you%20need%20to%20do,JavaScript%20code%20to%20implement%20it.
+3. root.render(<RouterProvider router={appRouter}/>);
+
+useRouteError
+Outlet & children
+Link
+
+2 types of ROUTING
+1. CLIENT side routing - all pages in one go (Reactjs)
+2. SERVER side routing - every page makes an API call (nextJS)
+
+useParams hook
