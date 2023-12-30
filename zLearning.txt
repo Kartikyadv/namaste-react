@@ -1,32 +1,24 @@
-useEffect
-useState
+class based components
 
-react router dom
-1. import { RouterProvider, createBrowserRouter } from "react-router-dom";
+state variables in class based components
 
-2. const appRouter = createBrowserRouter([
-    {
-        path: "/",
-        element: <App/>
-    },
-    {
-        path: "/about",
-        element: <About/>
-    },
-    {
-        path: "/contact",
-        element: <Contact/>
-    },
-])
+1st constructor is called then render is called then componentDidMount() is called
 
-3. root.render(<RouterProvider router={appRouter}/>);
+componentDidMount() {
+    // called after render
+}
+to make API call componentDidMount() is used
 
-useRouteError
-Outlet & children
-Link
+parent constructor called
+parent render called
+firstconstructor called
+firstrender called
+secondconstructor called
+secondrender called
+firstComponent did mount
+secondComponent did mount
+parent component did mount called
 
-2 types of ROUTING
-1. CLIENT side routing - all pages in one go (Reactjs)
-2. SERVER side routing - every page makes an API call (nextJS)
 
-useParams hook
+componentDidUpdate()
+componentDidUnmount()
