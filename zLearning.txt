@@ -1,14 +1,1 @@
-1. single responsibility principle to make code more
-- reusable
-- readable
-- testable
-
-2. custom hook - RestaurantDetails only displaying data should be its motive not fetching
-
-3. user have active internet?
- - useOnlineStatus()
-
- 4. chunkling || lazy loading || code splitting
- suspense
-
- 
+tailwind css

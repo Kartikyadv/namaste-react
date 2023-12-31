@@ -30,11 +30,11 @@ const Body = () => {
   if(onlineStatus === false) return <h1>Looks like your internet connection is weak</h1>
 
   return (
-    <div className="body">
-      <div className="upper_body">
-        <div className="filter">
+    <div className="mx-6">
+      <div className="flex">
+        <div className="m-4 p-4 bg-gray-100 rounded-lg">
           <button
-            className="filter_btn"
+            className=""
             onClick={() => {
               const filterResListTemp = filteredResList.filter(
                 (info) => info.info.avgRating > 4.2
@@ -45,9 +45,9 @@ const Body = () => {
             Top Rated
           </button>
         </div>
-        <div className="search_container">
+        <div className="m-4 p-4 border border-solid border-grey rounded-lg">
           <input
-            className="search_bar"
+            className=""
             onChange={(e) => {
               setSearchText(e.target.value);
               const filterResListTemp = resList.filter(
@@ -59,7 +59,7 @@ const Body = () => {
             placeholder="Search here.."
           />
           <button
-            className="search_bar"
+            className="px-4"
             onClick={() => {
               const filterResListTemp = resList.filter((info) => info.info.name.toLowerCase().includes(searchText.toLowerCase()));
               setfilteredResList(filterResListTemp);
@@ -72,7 +72,7 @@ const Body = () => {
       {resList.length === 0 ? (
         <Shimmer />
       ) : (
-        <div className="res_container">
+        <div className="flex flex-wrap">
           {filteredResList.map((restaurant) => (
             <RestaurantCard key={restaurant.info.id} resData={restaurant} />
           ))}
