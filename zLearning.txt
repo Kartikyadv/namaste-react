@@ -1,24 +1,14 @@
-class based components
+1. single responsibility principle to make code more
+- reusable
+- readable
+- testable
 
-state variables in class based components
+2. custom hook - RestaurantDetails only displaying data should be its motive not fetching
 
-1st constructor is called then render is called then componentDidMount() is called
+3. user have active internet?
+ - useOnlineStatus()
 
-componentDidMount() {
-    // called after render
-}
-to make API call componentDidMount() is used
+ 4. chunkling || lazy loading || code splitting
+ suspense
 
-parent constructor called
-parent render called
-firstconstructor called
-firstrender called
-secondconstructor called
-secondrender called
-firstComponent did mount
-secondComponent did mount
-parent component did mount called
-
-
-componentDidUpdate()
-componentDidUnmount()
+ 
