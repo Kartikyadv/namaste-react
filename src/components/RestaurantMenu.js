@@ -1,20 +1,19 @@
-import { useState } from "react";
-import Shimmer from "./Shimmer";
 import SingleMenu from "./SingleMenu";
 
-const RestaurantMenu = ({menudata,index}) => {
-    const{title} = menudata?.card?.card;
-    const {itemCards} = menudata?.card?.card;
-    if(itemCards === undefined) return null;
+const RestaurantMenu = ({data,showItems,setShowIndex}) => {
+    const handleClick = () => {
+        setShowIndex();
+        !showItems
+    }
     return (
-        <div className="menu container">
-            <h1>{title}</h1>
-            {itemCards.map((item,i)=>{
-                return <SingleMenu key={i} menulist={itemCards[i]}/>
-            })}
-            {/* <h4>{menudata?.card?.card?.itemCards[index].card.info.name}</h4> */}
+        <div className="w-6/12 mx-auto my-4 bg-gray-50 shadow-lg p-4">
+            <div className="flex justify-between cursor-pointer" onClick={handleClick}>
+                <span className="font-semibold text-lg">{data.title} ({data.itemCards.length})</span>
+                <span >⬇️</span>
+            </div>
+            {showItems?(<SingleMenu itemCards={data.itemCards}/>):(null)}
         </div>
     )
-};
+}
 
 export default RestaurantMenu;

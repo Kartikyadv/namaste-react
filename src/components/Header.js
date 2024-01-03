@@ -1,14 +1,17 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import logo from "../../public/assets/images/logo.jpg";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Header = () => {
     const [loginStatus,setLoginStatus] = useState("Login");
     const onlineStatus = useOnlineStatus();
+    const data = useContext(UserContext);
+    console.log(data);
     return (
         <div className="flex justify-between shadow-lg m-2">
-            <div className="w-44">
+            <div className="w-32">
                 <img className="logo" src={logo} alt="logo"></img>
             </div>
             <div className="flex items-center">
@@ -24,6 +27,7 @@ const Header = () => {
                         ? setLoginStatus("Logout")
                         : setLoginStatus("Login");
                     }}>{loginStatus}</button>
+                    <li className="px-5"><Link to="/">{data.loggedInUser}</Link></li>
                 </ul>
             </div>
         </div>

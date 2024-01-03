@@ -14,7 +14,6 @@ const RestaurantCard = (props) => {
     } = props.resData?.info;
     return (
         <>
-        <Link to={`restaurant-detail/${id}`}>
         <div className="m-4 p-4 w-[240] bg-gray-100 rounded-lg h-[500px] hover:bg-gray-200">
             <img className="rounded-lg h-[50%] w-[100%]" src={CDN_URL+cloudinaryImageId} alt="logo"/>
             <div className="m-2 mt-8">
@@ -25,9 +24,19 @@ const RestaurantCard = (props) => {
             <h4>{sla?.slaString}</h4>
             </div>
         </div>
-        </Link>
         </>
     );
+}
+
+export const isPromotedRestaurant = (RestaurantCard) => {
+    return (props) => {
+        return (
+            <div>
+                <label className="absolute m-2 p-2 bg-slate-300 text-white rounded-lg">Open</label>
+                <RestaurantCard {...props}/>
+            </div>
+        )
+    }
 }
 
 export default RestaurantCard;

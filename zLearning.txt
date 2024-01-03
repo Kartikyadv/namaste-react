@@ -1,1 +1,16 @@
-tailwind css
+1. Higher order function - it is a function that takes a component and returns a component
+
+normal component -> enhanced component
+(restaurantCard -> promotedRestaurantCard)  - withPromotedLabel() is a HOF in code
+
+2. restaurantMenu using jsx & Tailwind
+
+3. Lifting state up in RestaurantDetail(showIndex)
+
+4. props drilling alternative
+    useContext() in Header and UserContext.jsx
+
+5. UserContext.Consumer in class component for accessing
+6. UserContext.Provider in App component to set value 
+7. we can update context value by passing "setUserName" in UserContext.Provider in App.jsx
+    to use it anywhere for updating the value present in the context
