@@ -1,16 +1,18 @@
-1. Higher order function - it is a function that takes a component and returns a component
+1. State managing library , not in react, not necc-essary 
+    useContext can be used alternatively
 
-normal component -> enhanced component
-(restaurantCard -> promotedRestaurantCard)  - withPromotedLabel() is a HOF in code
+Redux Toolkit
+- Install  @redux/toolkit and react-redux
+- Build our store
+-  Connect store and App
+- Slice(cartSlice)
+- dispatch(Action)
+- Selector
 
-2. restaurantMenu using jsx & Tailwind
+useDispatch- dispatch a action to run a reducer f(n)
 
-3. Lifting state up in RestaurantDetail(showIndex)
 
-4. props drilling alternative
-    useContext() in Header and UserContext.jsx
-
-5. UserContext.Consumer in class component for accessing
-6. UserContext.Provider in App component to set value 
-7. we can update context value by passing "setUserName" in UserContext.Provider in App.jsx
-    to use it anywhere for updating the value present in the context
+onclick={handleItem} - will run when btn is clicked
+onclick={handleItem(item)} - will run when page is rendered w/o clicking button
+onclick={() => handleItem(item)} - this will run when page is rendered but arrow
+               f(n) creates a closure and capture the value returned/f(n) runned
