@@ -40,7 +40,7 @@
 80C:\Users\ky598\Desktop\namaste react\node_modules\minipass\dist\esm\index.js.map133485256568007612 0
 57C:\Users\ky598\Desktop\namaste react\public\assets\images133478346973738465 1
 87C:\Users\ky598\Desktop\namaste react\node_modules\csso\node_modules\css-tree\lib\syntax133477375774943341 1
-41C:\Users\ky598\Desktop\namaste react\dist133491339471169478 1
+41C:\Users\ky598\Desktop\namaste react\dist133493907352450774 1
 91C:\Users\ky598\Desktop\namaste react\node_modules\sucrase\dist\esm\parser\traverser\lval.js133485256574693611 0
 91C:\Users\ky598\Desktop\namaste react\node_modules\@swc\helpers\esm\_wrap_async_generator.js133477375774448869 0
 104C:\Users\ky598\Desktop\namaste react\node_modules\lmdb\node_modules\node-addon-api\napi-inl.deprecated.h133477375714941263 0
@@ -83,7 +83,7 @@
 55C:\Users\ky598\Desktop\namaste react\node_modules\json5133477375729282306 1
 95C:\Users\ky598\Desktop\namaste react\node_modules\tailwindcss\src\lib\resolveDefaultsAtRules.js133485256577756606 0
 81C:\Users\ky598\Desktop\namaste react\node_modules\caniuse-lite\data\regions\TD.js133477375787580820 0
-63C:\Users\ky598\Desktop\namaste react\dist\index.22ee376f.js.map133491339471149488 0
+63C:\Users\ky598\Desktop\namaste react\dist\index.22ee376f.js.map133493907352435863 0
 67C:\Users\ky598\Desktop\namaste react\node_modules\reselect\dist\cjs133488682585041007 1
 111C:\Users\ky598\Desktop\namaste react\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\api\index.js133477375710612003 0
 103C:\Users\ky598\Desktop\namaste react\node_modules\wrap-ansi-cjs\node_modules\emoji-regex\es2015\text.js133485256566564022 0
@@ -1127,7 +1127,7 @@
 56C:\Users\ky598\Desktop\namaste react\node_modules\srcset133477375723421743 1
 73C:\Users\ky598\Desktop\namaste react\node_modules\semver\classes\range.js133477375747858768 0
 75C:\Users\ky598\Desktop\namaste react\node_modules\htmlnano\lib\htmlnano.cjs133477375736101550 0
-71C:\Users\ky598\Desktop\namaste react\dist\index.runtime.a802740d.js.map133491339471119465 0
+71C:\Users\ky598\Desktop\namaste react\dist\index.runtime.a802740d.js.map133493907352415832 0
 66C:\Users\ky598\Desktop\namaste react\node_modules\string-width-cjs133485256565211813 1
 82C:\Users\ky598\Desktop\namaste react\node_modules\@parcel\core\src\ParcelConfig.js133477375771093882 0
 113C:\Users\ky598\Desktop\namaste react\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-node\package.json133477375747643021 0
@@ -3210,7 +3210,7 @@
 72C:\Users\ky598\Desktop\namaste react\node_modules\semver\functions\gt.js133477375728666893 0
 87C:\Users\ky598\Desktop\namaste react\node_modules\sucrase\dist\parser\traverser\lval.js133485256574713663 0
 88C:\Users\ky598\Desktop\namaste react\node_modules\sucrase\dist\parser\tokenizer\index.js133485256574283046 0
-60C:\Users\ky598\Desktop\namaste react\dist\index.82d27ff7.css133491339470872017 0
+60C:\Users\ky598\Desktop\namaste react\dist\index.82d27ff7.css133493907352220932 0
 95C:\Users\ky598\Desktop\namaste react\node_modules\sucrase\dist\parser\tokenizer\readWordTree.js133485256575306880 0
 92C:\Users\ky598\Desktop\namaste react\node_modules\sucrase\dist\esm\parser\tokenizer\types.js133485256576066442 0
 95C:\Users\ky598\Desktop\namaste react\node_modules\@pkgjs\parseargs\examples\is-default-value.js133485256565704310 0
@@ -4475,7 +4475,7 @@
 81C:\Users\ky598\Desktop\namaste react\node_modules\minimatch\dist\cjs\ast.d.ts.map133485256569615260 0
 82C:\Users\ky598\Desktop\namaste react\node_modules\nth-check\lib\esm\compile.js.map133477375725615264 0
 82C:\Users\ky598\Desktop\namaste react\node_modules\nth-check\lib\esm\index.d.ts.map133477375728696275 0
-65C:\Users\ky598\Desktop\namaste react\dist\Contact.5e29ca1f.js.map133491339471119465 0
+65C:\Users\ky598\Desktop\namaste react\dist\Contact.5e29ca1f.js.map133493907352415832 0
 76C:\Users\ky598\Desktop\namaste react\node_modules\nth-check\lib\esm\parse.js133477375716092677 0
 80C:\Users\ky598\Desktop\namaste react\node_modules\nth-check\lib\esm\parse.js.map133477375735687062 0
 81C:\Users\ky598\Desktop\namaste react\node_modules\caniuse-lite\data\regions\GF.js133477375780194286 0
@@ -6032,7 +6032,7 @@
 96C:\Users\ky598\Desktop\namaste react\node_modules\css-tree\cjs\syntax\node\MediaFeatureRange.cjs133477375764570991 0
 89C:\Users\ky598\Desktop\namaste react\node_modules\css-tree\cjs\syntax\node\MediaQuery.cjs133477375764716796 0
 90C:\Users\ky598\Desktop\namaste react\node_modules\css-tree\cjs\syntax\node\Parentheses.cjs133477375766731901 0
-67C:\Users\ky598\Desktop\namaste react\dist\index.runtime.a802740d.js133491339470882199 0
+67C:\Users\ky598\Desktop\namaste react\dist\index.runtime.a802740d.js133493907352220932 0
 89C:\Users\ky598\Desktop\namaste react\node_modules\css-tree\cjs\syntax\node\Percentage.cjs133477375767191912 0
 82C:\Users\ky598\Desktop\namaste react\node_modules\css-tree\cjs\syntax\node\Raw.cjs133477375767701781 0
 79C:\Users\ky598\Desktop\namaste react\node_modules\@swc\helpers\scripts\build.js133477375774639190 0
@@ -6495,7 +6495,7 @@
 81C:\Users\ky598\Desktop\namaste react\node_modules\caniuse-lite\data\regions\LK.js133477375782709423 0
 81C:\Users\ky598\Desktop\namaste react\node_modules\caniuse-lite\data\regions\LR.js133477375782771731 0
 99C:\Users\ky598\Desktop\namaste react\node_modules\@parcel\runtime-js\src\helpers\bundle-manifest.js133477375733909596 0
-59C:\Users\ky598\Desktop\namaste react\dist\logo.98013dba.jpg133491339460886576 0
+59C:\Users\ky598\Desktop\namaste react\dist\logo.98013dba.jpg133493907343275012 0
 81C:\Users\ky598\Desktop\namaste react\node_modules\caniuse-lite\data\regions\LY.js133477375782869809 0
 81C:\Users\ky598\Desktop\namaste react\node_modules\caniuse-lite\data\regions\MA.js133477375782897536 0
 81C:\Users\ky598\Desktop\namaste react\node_modules\caniuse-lite\data\regions\MC.js133477375783074174 0
@@ -7719,7 +7719,7 @@
 129C:\Users\ky598\Desktop\namaste react\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\utils\createCustomError.js133477375743772165 0
 89C:\Users\ky598\Desktop\namaste react\node_modules\@pkgjs\parseargs\internal\validators.js133485256567876124 0
 95C:\Users\ky598\Desktop\namaste react\node_modules\@pkgjs\parseargs\examples\ordered-options.mjs133485256568888302 0
-59C:\Users\ky598\Desktop\namaste react\dist\index.22ee376f.js133491339470882199 0
+59C:\Users\ky598\Desktop\namaste react\dist\index.22ee376f.js133493907352230950 0
 96C:\Users\ky598\Desktop\namaste react\node_modules\@pkgjs\parseargs\examples\simple-hard-coded.js133485256567207870 0
 67C:\Users\ky598\Desktop\namaste react\node_modules\@parcel\codeframe133477375756556288 1
 72C:\Users\ky598\Desktop\namaste react\node_modules\@parcel\config-default133477375735626817 1
@@ -8691,7 +8691,7 @@
 70C:\Users\ky598\Desktop\namaste react\node_modules\@babel\highlight\lib133477375721928722 1
 79C:\Users\ky598\Desktop\namaste react\node_modules\@babel\highlight\node_modules133477375690155119 1
 79C:\Users\ky598\Desktop\namaste react\node_modules\@babel\highlight\package.json133477375723393607 0
-52C:\Users\ky598\Desktop\namaste react\dist\index.html133491339470872017 0
+52C:\Users\ky598\Desktop\namaste react\dist\index.html133493907352220932 0
 76C:\Users\ky598\Desktop\namaste react\node_modules\@babel\highlight\README.md133477375719808330 0
 91C:\Users\ky598\Desktop\namaste react\node_modules\@babel\highlight\node_modules\ansi-styles133477375713050975 1
 85C:\Users\ky598\Desktop\namaste react\node_modules\@babel\highlight\node_modules\chalk133477375716038379 1
@@ -8805,5 +8805,5 @@
 77C:\Users\ky598\Desktop\namaste react\node_modules\.bin\update-browserslist-db133477376009812838 0
 81C:\Users\ky598\Desktop\namaste react\node_modules\.bin\update-browserslist-db.cmd133477376009812838 0
 81C:\Users\ky598\Desktop\namaste react\node_modules\.bin\update-browserslist-db.ps1133477376009812838 0
-61C:\Users\ky598\Desktop\namaste react\dist\Contact.5e29ca1f.js133491339470882199 0
-64C:\Users\ky598\Desktop\namaste react\dist\index.82d27ff7.css.map133491339471119465 0
+61C:\Users\ky598\Desktop\namaste react\dist\Contact.5e29ca1f.js133493907352220932 0
+64C:\Users\ky598\Desktop\namaste react\dist\index.82d27ff7.css.map133493907352415832 0
