@@ -21,10 +21,10 @@ const Body = () => {
     );
     const jsonData = await apiData.json();
     setresList(
-      jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+      jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants
     );
-    setfilteredResList(jsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle
+    setfilteredResList(jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants);
   };
 
