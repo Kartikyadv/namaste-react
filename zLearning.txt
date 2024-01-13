@@ -7,15 +7,23 @@
 1. React Testing Libraries - builds on top of DOM Testing Library
                            - uses jest.js - js Testing framework
                            
-install React Testing Libraries
-install jest
-install Babel dependencies
-configure Babel
-configure parcel config to disable default babel transpilation
-jest configure - npx jest --init
-npm install --save-dev jest-environment-jsdom
+- install React Testing Libraries
+- install jest
+- install Babel dependencies
+- configure Babel
+- configure parcel config to disable default babel transpilation
+- jest configure - npx jest --init
+- npm install --save-dev jest-environment-jsdom
 
-sum Testcase
+# sum Testcase
 
-install @babel/preset-react - to make jsx work in test cases
-include @babel/preset-react in babel config
+# contact Component render test
+- install @babel/preset-react - to make jsx work in test cases
+- include @babel/preset-react in babel config
+- npm i -D @testing-library/jest-dom
+ 
+
+ STEPS IN TESTING
+ 1. Render - render(<Contact/>);
+ 2. query - const heading = screen.getByRole("heading");
+ 3. Assert - expect(heading).toBeInTheDocument();
